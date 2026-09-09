@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurEarth</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">OurEarth</div>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Search</a>
+          <a href="#">Bookmarks</a>
+          <a href="#">Data</a>
+        </nav>
+      </header>
+
+      <main>
+        <div class="title-row">
+            <a href="index.html" class="back-button">
+                <img src="images/Arrow 1.png" alt="Back to Home Page" width="24" height="24">
+              </a>
+              <h1>Products Page</h1>
+            </div>
+            <div class="container">
+                <h2 class="text-2xl font-bold text-white">Yeti 32 oz Rambler (Black)</h2>
+                <button class="bookmark-btn text-gray-300 hover:text-white text-xl">
+                  <i class="fa-regular fa-bookmark"></i>
+                </button>
+                <div class="flex items-center space-x-3 mb-8">
+                    <span class="status-indicator"></span>
+                      Overall Impact Score: <span class="text-white">82/100</span> <span class="font-normal text-gray-300">(low impact)</span>
+                    </p>
+                  </div>
+                 
+                  <div class="button-container">
+                    <button class="OverviewButton" onclick="showOverview()">Overview</button>  
+                    <button class="MaterialsButton" onclick="showMaterials()">Materials</button>
+                    <button class="HealthButton" onclick="showHealth()">Health</button>
+                    <button class="EnvironmentButton" onclick="showEnvironment()">Environment</button>
+                    <button class="End of LifeButton" onclick="showEndOfLife()">End of Life</button>
+                    <button class="SourcesButton" onclick="showSources()">Sources</button>
+                  </div>
+                  <div class="content-container">
+
+                      <div class="info-box">
+                        <h2 id="Title">
+                            Overview
+                        </h2>
+                        <p id="description">
+                            My beautiful ourEarth project
+                        </p>
+                    </div>
+                    <img src="images/yeti 1.png" alt="yeti bottle">
+                  </div>
+                  
+                
+            </div>
+    
+          </main>
+        <script src="script.js"></script>
+    </body>
+    </html>
+              
+              
