@@ -7,7 +7,7 @@ function showDone() {
 function showOverview() {
   document.getElementById("Title").textContent = "Overview"
   document.getElementById("description").innerHTML =
-  '<strong>Materials Used</strong><br></br><ol> <li>18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer. YETI states its drinkware is made from 304 / 18/8 stainless steel (double-wall vacuum insulated). YETI+1 </li><br></br><strong>Health Impact</strong><br></br> jsdnsdf<br></br><strong>Environmental Impact</strong><br></br> 18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer)<br></br><strong>Social/Ethical</strong><br></br> 18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer)<br></br><strong>Alternatives</strong><br></br> 18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer)'
+  '<strong>Materials Used</strong><br></br><ol> <li>18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer. YETI states its drinkware is made from 304 / 18/8 stainless steel (double-wall vacuum insulated). YETI+1 </li><br></br><strong>Health Impact</strong><br>  </br><br></br><strong>Environmental Impact</strong><br></br> 18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer)<br></br><strong>Social/Ethical</strong><br> </br> 18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer)<br></br><strong>Alternatives</strong><br></br> 18/8 (304) kitchen-grade stainless steel — double-wall (inner & outer)'
 }
 function showMaterials() {
   document.getElementById("Title").textContent = "Materials"
@@ -32,7 +32,7 @@ function showHealth() {
     "<strong>Powder Coating</strong><br>" +
     "✅ Doesn't touch your drink<br>" +
     "✅ Chemically stable after curing<br>" +
-    "⚠️ If scratched, it mainly affects appearance rather than safety.";
+    "⚠️ If scratched, it mainly affects appearance rather than safety.";    
 }
 
 function showEnvironment() {
@@ -49,7 +49,7 @@ function showEnvironment() {
     "Cons: Difficult to recycle, Usually ends up in landfill.<br><br>" +
     "<strong>Powder Coating</strong><br>" +
     "Pros: More durable than liquid paint, Produces fewer air pollutants during manufacturing, Helps extend the bottle's lifespan.<br>" +
-    "Cons: Petroleum-based, Cannot be recycled separately.";
+    "Cons: Petroleum-based, Cannot be recycled separatetly";
 }
 
 function showEndOfLife() {
@@ -59,7 +59,7 @@ function showEndOfLife() {
     "♻️ Recyclable as stainless steel.<br>" +
     "The metal can be melted down and made into new products with little loss in quality.<br><br>" +
     "<strong>Plastic Lid</strong><br>" +
-    "♻️ Sometimes recyclable.<br>" +
+    "♻️ Sometimes recyclable.<br>" + thet  
     "Availability depends on local recycling programs. Small plastic parts may not be accepted everywhere.<br><br>" +
     "<strong>Silicone Gasket</strong><br>" +
     "⚠️ Rarely recycled.<br>" +
@@ -81,7 +81,7 @@ function showSources() {
     "U.S. Geological Survey (USGS) – Chromium, Nickel, and Iron Statistics<br><br>" +
     "<strong>Industry Organizations</strong><br>" +
     "World Stainless Association (formerly ISSF) – Stainless steel recycling and life-cycle information<br><br>" +
-    "<strong>Research Databases</strong><br>" +
+    "<strong>Research Databases</strong><br>" + 
     "PubMed<br>" +
     "Google Scholar<br>" +
     "ScienceDirect<br>" +
